@@ -1,7 +1,7 @@
 const DIAS_ANIO = 365;
 
 var nombre = null;
-var nombre = prompt("Bienvenido, ingresa tu nombre a continnuación");
+var nombre = prompt("Bienvenido, ingresa tu nombre a continuación");
 let edadStr = prompt("Ahora ingresa tu edad");
 let edad = parseInt(edadStr); // Convertir la edad a un número entero
 let caracteresNombre = nombre.length < 5; // Se verifica si el nombre tiene menos de 5 caracteres
