@@ -1,1 +1,12 @@
-// Escribe un programa que pida al usuario su nombre y edad usando prompt. Convierte la edad a un número entero. Calcula la edad en días multiplicando por 365 (constante). Verifica si el nombre tiene menos de 5 caracteres. Usa var para la variable del nombre, let para la edad y el resultado de la comparación, y const para la constante. Declara una variable con valor null. Muestra todos los resultados en la consola, incluyendo el nombre, edad en días, si el nombre es corto y el valor nulo.
+const DIAS_ANIO = 365;
+const cantCaracteres = 5;
+
+let nombre = prompt("Bienvenido, ingresa tu nombre a continnuación");
+let edadStr = prompt("Ahora ingresa tu edad");
+let edad = parseInt(edadStr); // Convertir la edad a un número entero
+
+if (nombre.length === cantCaracteres) {
+    console.log(nombre + ", tu nombre tiene 5 letras, ¡genial!");
+} else {
+    console.log("Tu nombre tiene mas de 5 caracteres");
+}
