@@ -1,6 +1,5 @@
 const DIAS_ANIO = 365;
 
-let cantCaracteres = 5;
 var nombre = null;
 var nombre = prompt("Bienvenido, ingresa tu nombre a continnuación");
 let edadStr = prompt("Ahora ingresa tu edad");
