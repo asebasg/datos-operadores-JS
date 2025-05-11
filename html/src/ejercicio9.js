@@ -1,9 +1,15 @@
-var precio = parseFloat(prompt("Ingrese el precio del producto:"));
-const descuento = (precio*0.10); // 10% de descuento
-let precioConDescuento = precio - descuento;
-let precioNegacion = !precioConDescuento;
-let indefinido;
-console.log("el precio original es mayor a 100? : ", precio > 100);
-console.log("precio con descuento: ", precioConDescuento);
-console.log(precioNegacion);
-console.log(indefinido);
+var horasUsuario = prompt("Ingresa una cantidad de horas:");
+
+var horas = parseFloat(horasUsuario);
+
+const MINUTOS_POR_HORA = 60;
+const SEGUNDOS_POR_MINUTO = 60;
+
+let minutos = horas * MINUTOS_POR_HORA;
+var segundos = minutos * SEGUNDOS_POR_MINUTO;
+
+let esMayorAUnaHora = horas > 1;
+
+console.log("Minutos:", minutos);
+console.log("Segundos:", segundos);
+console.log("¿Es mayor a 1 hora?:", esMayorAUnaHora);

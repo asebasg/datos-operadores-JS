@@ -1,7 +1,15 @@
-var horas = parseFloat(prompt("Ingrese la cantidad de horas:"));
-const minutos = horas * 60;
-const segundos = minutos * 60; // Convertir a segundos
-let esMayorAUnaHora = horas > 1; // Verificar si es mayor a una hora
-console.log("cantidad de horas: ", horas);
-console.log("cantidad de minutos en", horas, "horas ", minutos);
-console.log(horas>1);
+var horasUsuario = prompt("Ingresa una cantidad de horas:");
+
+var horas = parseFloat(horasUsuario);
+
+const MINUTOS_POR_HORA = 60;
+const SEGUNDOS_POR_MINUTO = 60;
+
+let minutos = horas * MINUTOS_POR_HORA;
+var segundos = minutos * SEGUNDOS_POR_MINUTO;
+
+let esMayorAUnaHora = horas > 1;
+
+console.log("Minutos:", minutos);
+console.log("Segundos:", segundos);
+console.log("¿Es mayor a 1 hora?:", esMayorAUnaHora);
