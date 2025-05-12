@@ -26,4 +26,4 @@ console.log(`Distancia ingresada ${distancia} km`);
 console.log(`Distancia en metros: ${distanciaMetros} m`);
 console.log(`Distancia en centimetros: ${distanciaCentimetros} cm`);
 console.log(`¿El valor ingresado es menor a 1km?: ${menorUnKm}`);
-console.log(`Valor nulo: ${null}`);
+console.log(`Valor nulo: ${nulo}`);
